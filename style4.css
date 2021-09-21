@@ -1,0 +1,124 @@
+html{
+  /*background-image:url("https://www.chrishazemusic.com/wp-content/uploads/2018/02/Website-Background-scaled.jpg");*/
+    /*background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+  /*background-image:url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0OTE4MzZ8fGVufDB8fHx8&w=1000&q=80);*/
+  background-color: rgb(26, 24, 24) ;
+  background-size:100% 100%;
+}
+.sineup{
+  /*text-align:center;
+  */color: rgb(255, 255, 255);
+  background-color:rgb(45, 82, 163);
+  border: none;
+  padding: 0.5% 2%;
+  text-decoration: none;
+  position:fixed;
+  border-radius: 6px;
+}
+.sineup:hover{
+  background-color:rgb(101, 135, 180);
+  
+}
+.login{
+  /*text-align:center;
+  */color: rgb(255, 255, 255);
+  float: left;
+  border: none;
+  padding: 14px 2%;
+  text-decoration: none;
+  position:fixed;
+  border-radius: 6px;
+}
+.login a:hover{
+  color:rgb(153, 152, 152);
+  
+}
+body, html{
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+body, h1{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: green;
+  padding-top: 0px;
+}
+body, h4{
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+body, h6{
+  text-align:center;
+  padding-top:40px;
+  bottom:0;
+}
+.nav{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 7%;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.nav a:hover {
+  background: #ddd;
+  color: black;
+}
+.sineup{
+  text-align:center;
+  color: rgb(255, 255, 255);
+  background-color:rgb(45, 82, 163);
+  border: none;
+   padding: 20% 50%;
+  text-decoration: none;
+  /* position:fixed; */
+  border-radius: 6px;
+}
+.sineup:hover{
+  background-color:rgb(101, 135, 180);
+  
+}
+.login{
+  /*text-align:center;
+  */color: rgb(255, 255, 255);
+  /* float: left; */
+  border: none;
+  padding:50% 50%; 
+  text-decoration: none;
+  /* position:fixed; */
+  border-radius: 6px;
+  background-color:rgb(93, 99, 105);
+}
+.buton links{
+  float: left;
+  
+}
+.login:hover{
+  color:rgb(182, 175, 175);
+  
+}
+.log{
+  float:right;
+  padding:1.5% 4% ;
+  
+}
+.sin{
+  float:right;
+  padding:1.5% 4% ;
+  
+}
